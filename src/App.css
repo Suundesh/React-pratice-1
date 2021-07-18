@@ -1,38 +1,193 @@
-.App {
+body{
+  background-color:#800040;
+}
+
+.nav
+{
+  width:100%;
+  background-color: #800040 ;
+  border:1px solid #e60073;
+  height: 6.7em;
+}
+
+.menu{
+  list-style-type: none;
+  color:#800040;
+  display: inline-block;
+  font-size: 1.5em;
+  width:15%;
+  height: 3em;
+  background-color: #e60073;
+  text-align: center;
+  padding-top: 1.3em;
+  border: 2px solid #e60073;
+  border-radius: 1em;
+  
+
+}
+
+.link{
+  text-decoration: none;
+  
+}
+
+.menu:hover{
+  color:#e60073;
+  background-color:#800040 ;
+}
+.ul{
+  margin-top: 0;
+  padding-left: 0;
+  margin-left: 33%;
+  
+}
+
+.left{
+  display: inline-block;
+  float:left;
+  margin-left: 7%;
+
+}
+
+.right{
+  display: inline-block;
+  float: right;
+  margin-right: 7%;
+  width:40%;
+  height: 40%;
+  margin-top: 0.5%; 
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.para{
+  color: #ffe6f2;
+  font-size: 1em;
+  font-weight: bolder;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.para1 {
+  color:bisque;
+}
+.para2 {
+  color: #ffe6f2;
+}
+.para3{
+  color: #ffe6f2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.leftA{
+  display: inline-block;
+  float: left;
+  width:40%;
+  height: 40%;
+  margin-top: 0.5%; 
+  text-align: center;
+  margin-left: 7%;
 }
 
-.App-link {
-  color: #61dafb;
+.rightA{
+  display: inline-block;
+  margin-right: 7%;
+  float:right;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.email{
+  color: #ffe6f2;
+}
+
+.headingText{
+  color:bisque;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.more{
+color:#F3AC3C;
+text-decoration: none;
+}
+
+i {
+  display: inline-block;
+  margin-right: 0.2em;
+}
+
+@media (max-width:800px)
+{
+ .nav{
+   width:100%;
+   height:5em;
+ 
+ }
+
+ .menu{
+  
+   display: inline-block;
+   width:4.1em;
+   height:2em;
+   margin-left: 0;
+  padding-top: 1em;
+  font-size: 1.2em;
+  padding-bottom: 1em;
+  margin-left: 0.8em;
+  color:#ffe6f2;
+
+ }
+
+ .ul{
+   margin:0;
+   padding:0;
+ }
+  
+ .right{
+   margin:auto;
+   display: block;
+   width: 100%;
+   height: 100%;
+  float:center;
+  text-align:center;
+  left: 0;
+  right:0;
+ }
+
+ .left{
+   
+   margin:auto;
+   display: block;
+   max-width: 100%;
+   max-height: 100%;
+ }
+
+ .rightA{
+  width:30%;
+  display: inline-block;
+ height:40%;
+  margin-right: 8%;
+float:right;
+
+}
+
+.leftA{
+  display: inline-block;
+  width: 30%;
+  height: 40%;
+ float:left;
+ text-align:center;
+ left: 0;
+ right:0;
+ margin-left:8%;
+  
+}
+
+
+ .img{
+   max-width: 100%;
+ }
+
+ .para{
+   padding: 1em;
+ }
+ 
+}
+.menu {
+  color:#ffe6f2;
 }
